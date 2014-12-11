@@ -21,6 +21,7 @@ var onDeviceReady = function() {
 var initStore = function() {
     if (!window.store) {
         log('Store not available');
+        alert("The In-App Purchase Cordova plug-in is not supported or available.");
         return;
     }
 
