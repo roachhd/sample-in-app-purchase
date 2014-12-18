@@ -1,0 +1,16 @@
+{
+	"reponame":"sample-in-app-purchase",
+	"title":"Hello In App Purchase",
+	"abbr":"In App Purchase",
+	"tooltip":"A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
+	"description":"A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
+	"articleurl":"https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-cordova-and-in-app-purchase",
+	"screenshotUrl":"",
+	"iconUrl":"",
+	"highlights":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
+    "keywords":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
+	"visible": "true",
+	"apppreview":"false",
+	"appname":"demo.inapppurchase",
+	"relname":"4.0.0"
+}
