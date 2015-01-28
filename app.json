@@ -8,9 +8,10 @@
 	"screenshotUrl":"",
 	"iconUrl":"",
 	"highlights":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
-    "keywords":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
+    	"keywords":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
 	"visible": "true",
 	"apppreview":"false",
 	"appname":"demo.inapppurchase",
-	"relname":"4.0.0"
+	"relname":"4.0.0",
+  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
 }
