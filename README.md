@@ -1,12 +1,12 @@
-TV Browser App
-============================
-The TV Browser app showcases online LIVE video streams from various sources.
+In-App Purchase Sample
+======================
+The In-App Purchase Sample is a simple application that contains Apple StoreKit* based in-app purchases of various types.
 
 Intel(R) XDK 
 -------------------------------------------
-This sample is part of the Intel(R) XDK. 
-Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample, 
-please visit the sample article page at https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-admob-cordova-plugin.
+This sample is part of the Intel(R) XDK Edition. 
+Download the Intel(R) XDK IoT Edition at ([https://software.intel.com/en-us/html5/tools]). To see the technical details of the sample, 
+please visit the sample article page at ([https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-cordova-and-in-app-purchase]).
 
 
 Important App Files
@@ -17,8 +17,8 @@ Important App Files
 * app.json
 * README.md
 * js/*
+* app_framework/*
 * css/*
-* appframework/*
 
 License Information Follows
 ---------------------------
@@ -49,7 +49,11 @@ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+
 App Framework
---------------------------
-* source:  http://app-framework-software.intel.com/
-* license:  https://github.com/01org/appframework/blob/master/license.txt
+-----------------------------------------------------------------------------
+([http://app-framework-software.intel.com/])
+*source:* https://github.com/01org/appframework
+*license:* https://raw.githubusercontent.com/01org/appframework/master/license.txt
+
+
