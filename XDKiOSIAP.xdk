@@ -1,11 +1,11 @@
 {
   "project": {
-    "projectSettingsVersion": "1.1",
+    "projectSettingsVersion": "1.2",
     "creationData": {
       "type": "Import",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "",
-      "projectGuid": "554709ea-b038-4d2b-a0f8-633fc32ed6d1",
+			"projectGuid": "00000000-0000-0000-0000-000000000000",
       "lastModifiedDate": 1415961180376,
       "creationDate": 1415653699109
     },
@@ -90,7 +90,7 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
+        "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "stable"
@@ -113,7 +113,7 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
+        "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
         "crosswalkVersion_": "stable"
@@ -140,7 +140,7 @@
         ],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
+        "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1"
       },
       "Windows8": {
@@ -157,7 +157,7 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
+        "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.0.1"
       },
       "WindowsPhone8": {
@@ -174,7 +174,7 @@
         "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "cordovaCLIVersion_": "3.5",
+				"cordovaCLIVersion_": "?",
         "appVersion_": "0.0.0.1"
       }
     }
