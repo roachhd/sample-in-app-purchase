@@ -2,45 +2,23 @@
   "project": {
     "projectSettingsVersion": "1.2",
     "creationData": {
-      "type": "Import",
+      "type": "Demo",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-      "src": "",
-			"projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1415961180376,
-      "creationDate": 1415653699109
+      "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/sample-in-app-purchase/sample.zip",
+      "projectGuid": "00000000-0000-0000-0000-000000000000",
+      "lastModifiedDate": 1423536014789,
+      "creationDate": 1423528227184
     },
     "sourceDirectory": "www",
     "cordovaPluginsDirectory": "plugins",
     "startFile": "index.html",
     "projectFiles": {},
     "projectDirectories": {},
-    "libraries": [
-      {
-        "name": "Cordova",
-        "version": "2.9.0",
-        "data": {
-          "default": true
-        }
-      },
-      {
-        "name": "intelXDK",
-        "version": "4.0.0",
-        "data": {
-          "default": true
-        }
-      }
-    ],
+    "libraries": [],
     "cordovaPlugins": [
       {
         "id": "org.apache.cordova.device",
         "version": "0.2.9",
-        "selectedState": "Auto",
-        "data": {},
-        "paramvals": {}
-      },
-      {
-        "id": "org.apache.cordova.splashscreen",
-        "version": "0.3.0",
         "selectedState": "Auto",
         "data": {},
         "paramvals": {}
@@ -55,19 +33,6 @@
         "name": "In-App Purchase",
         "origin": "https://github.com/j3k0/cordova-plugin-purchase",
         "originType": "repo"
-      },
-      {
-        "id": "intel.xdk.device",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {}
-      },
-      {
-        "id": "org.apache.cordova.vibration",
-        "version": "0.3.8",
-        "selectedState": "Included",
-        "data": {},
-        "paramvals": {}
       }
     ],
     "serviceMethods": [],
@@ -82,18 +47,22 @@
           "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "XDKiOSIAP",
+        "appName_": "HelloInAppPurchase",
         "appID_": "com.mcc.appleiap",
-        "appAccess_": "*",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "iosProvs_": [],
         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "crosswalkVersion_": "stable"
+        "crosswalkVersion_": "?"
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -105,41 +74,49 @@
           "android-installLocation": "auto"
         },
         "isActive_": true,
-        "appName_": "XDKiOSIAP",
-        "appID_": "not.yet.specified",
-        "appAccess_": "*",
+        "appName_": "HelloInAppPurchase",
+        "appID_": "com.mcc.appleiap",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "iosProvs_": [],
         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "crosswalkVersion_": "stable"
+        "crosswalkVersion_": "?"
       },
       "iOS": {
         "platform_": "ios",
         "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "7.0",
+          "ios-target": "6",
           "ios-configuration": "adhoc"
         },
         "isActive_": true,
-        "appName_": "XDKiOSIAP",
+        "appName_": "HelloInAppPurchase",
         "appID_": "com.mcc.appleiap",
-        "appAccess_": "*",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
         "icons_": [],
         "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
         "iosProvs_": [
           {
             "relPath": "XDKInAppPurchaseProfile.mobileprovision",
             "type": "adhoc"
           }
         ],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1"
       },
@@ -149,34 +126,25 @@
         "name_": "Windows8",
         "preferences_": {},
         "isActive_": true,
-        "appName_": "XDKiOSIAP",
+        "appName_": "HelloInAppPurchase",
         "appID_": "com.mcc.appleiap",
-        "appAccess_": "*",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "appAuthor_": "Intel XDK",
         "icons_": [],
         "splashes_": [],
-        "iosProvs_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "iosProvs_": [],
         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.0.1"
-      },
-      "WindowsPhone8": {
-        "platform_": "wp8",
-        "runtime_": "Cordova 3.x",
-        "name_": "WindowsPhone8",
-        "preferences_": {},
-        "isActive_": true,
-        "appName_": "XDKiOSIAP",
-        "appID_": "not.yet.specified",
-        "appAccess_": "*",
-        "icons_": [],
-        "splashes_": [],
-        "iosProvs_": [],
-        "addlPermissions_": "",
-        "excludedLibraries_": "",
-				"cordovaCLIVersion_": "?",
-        "appVersion_": "0.0.0.1"
       }
-    }
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": []
   }
 }
