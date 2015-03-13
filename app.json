@@ -1,17 +1,29 @@
 {
-	"repoName":"sample-in-app-purchase",
-	"title":"Hello In App Purchase",
-	"abbr":"In App Purchase",
-	"tooltip":"[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
-	"description":"[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
-	"articleUrl":"https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-cordova-and-in-app-purchase",
-	"screenshotUrl":"",
-	"iconUrl":"",
-	"highlights":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
-    	"keywords":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
-	"visible": "true",
-	"apppreview":"false",
-	"appname":"demo.inapppurchase",
-	"relname":"4.0.0",
-  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+   "tooltip" : "[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
+   "articleUrl" : "https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-cordova-and-in-app-purchase",
+   "visible" : "true",
+   "appPreview" : "false",
+   "screenshotUrl" : "",
+   "keywords" : [
+      "App Designer",
+      "App Framework",
+      "Apache Cordova API",
+      "Purchases",
+      "Monetize"
+   ],
+   "relName" : "4.0.0",
+   "repoName" : "sample-in-app-purchase",
+   "highlights" : [
+      "App Designer",
+      "App Framework",
+      "Apache Cordova API",
+      "Purchases",
+      "Monetize"
+   ],
+   "iconUrl" : "",
+   "appName" : "demo.inapppurchase",
+   "description" : "[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
+   "title" : "Hello In App Purchase",
+   "abbr" : "In App Purchase"
 }
