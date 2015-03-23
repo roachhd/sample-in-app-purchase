@@ -4,7 +4,7 @@
 	"abbr":"In App Purchase",
 	"tooltip":"[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
 	"description":"[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
-	"articleUrl":"https://software.intel.com/en-us/html5/articles/html5-hybrid-apps-with-cordova-and-in-app-purchase",
+	"articleUrl":"https://software.intel.com/en-us/xdk/docs/html5-hybrid-apps-with-cordova-and-in-app-purchase",
 	"screenshotUrl":"",
 	"iconUrl":"",
 	"highlights":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
