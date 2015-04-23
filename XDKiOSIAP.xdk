@@ -5,8 +5,8 @@
       "type": "Demo",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/sample-in-app-purchase/sample.zip",
-      "projectGuid": "00000000-0000-0000-0000-000000000000",
-      "lastModifiedDate": 1423536014789,
+         "projectGuid": "00000000-0000-0000-0000-000000000000",
+      "lastModifiedDate": 1429659533976,
       "creationDate": 1423528227184
     },
     "sourceDirectory": "www",
@@ -18,17 +18,21 @@
     "cordovaPlugins": [
       {
         "id": "org.apache.cordova.device",
-        "version": "0.2.9",
+         "version": "?",
         "selectedState": "Auto",
         "data": {},
-        "paramvals": {}
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
       },
       {
         "id": "cc.fovea.plugins.inapppurchase",
-        "version": "",
+         "version": "?",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": [],
         "custom": "true",
         "name": "In-App Purchase",
         "origin": "https://github.com/j3k0/cordova-plugin-purchase",
@@ -39,14 +43,14 @@
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
-        "runtime_": "Cordova 3.x",
+         "runtime_": "Cordova 3.x",
         "name_": "Android",
         "preferences_": {
-          "android-minSdkVersion": "10",
+         "android-minSdkVersion": "10",
           "android-targetSdkVersion": "19",
           "android-installLocation": "auto"
         },
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "HelloInAppPurchase",
         "appID_": "com.mcc.appleiap",
         "appAccess_": [
@@ -59,21 +63,22 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
+         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "crosswalkVersion_": "?"
+        "appAuthor_": "Intel XDK",
+         "crosswalkVersion_": "?"
       },
       "Android-Crosswalk": {
         "platform_": "android",
-        "runtime_": "Crosswalk with Cordova 3.x",
+         "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android-Crosswalk",
         "preferences_": {
-          "android-minSdkVersion": "14",
+         "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
           "android-installLocation": "auto"
         },
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "HelloInAppPurchase",
         "appID_": "com.mcc.appleiap",
         "appAccess_": [
@@ -86,20 +91,21 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
+         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "crosswalkVersion_": "?"
+         "crosswalkVersion_": "?",
+         "appAuthor_": "Intel XDK"
       },
       "iOS": {
         "platform_": "ios",
-        "runtime_": "Cordova 3.x",
+         "runtime_": "Cordova 3.x",
         "name_": "iOS",
         "preferences_": {
-          "ios-target": "6",
+         "ios-target": "6",
           "ios-configuration": "adhoc"
         },
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "HelloInAppPurchase",
         "appID_": "com.mcc.appleiap",
         "appAccess_": [
@@ -117,15 +123,16 @@
             "type": "adhoc"
           }
         ],
-        "cordovaCLIVersion_": "?",
+         "cordovaCLIVersion_": "?",
+         "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Windows8": {
         "platform_": "windows8",
-        "runtime_": "Cordova 3.x",
+         "runtime_": "Cordova 3.x",
         "name_": "Windows8",
         "preferences_": {},
-        "isActive_": true,
+         "isActive_": true,
         "appName_": "HelloInAppPurchase",
         "appID_": "com.mcc.appleiap",
         "appAccess_": [
@@ -133,14 +140,94 @@
             "origin": "*"
           }
         ],
-        "appAuthor_": "Intel XDK",
         "icons_": [],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+         "appAuthor_": "Intel XDK",
         "iosProvs_": [],
-        "cordovaCLIVersion_": "?",
+         "cordovaCLIVersion_": "?",
         "appVersion_": "0.0.0.1"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+         "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+         "isActive_": false,
+        "appName_": "XDKiOSIAP",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+         "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+         "isActive_": false,
+        "appName_": "XDKiOSIAP",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+         "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+         "isActive_": false,
+        "appName_": "XDKiOSIAP",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+         "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+         "isActive_": false,
+        "appName_": "XDKiOSIAP",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
       }
     },
     "gameAssetDirectory": "asset",
