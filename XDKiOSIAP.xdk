@@ -27,7 +27,7 @@
       },
       {
         "id": "cc.fovea.plugins.inapppurchase",
-         "version": "?",
+         "version": "",
         "selectedState": "Included",
         "data": {},
         "paramvals": {},
