@@ -1,17 +1,30 @@
 {
-	"repoName":"sample-in-app-purchase",
-	"title":"Hello In App Purchase",
-	"abbr":"In App Purchase",
-	"tooltip":"[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
-	"description":"[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
-	"articleUrl":"https://software.intel.com/en-us/xdk/docs/html5-hybrid-apps-with-cordova-and-in-app-purchase",
-	"screenshotUrl":"",
-	"iconUrl":"",
-	"highlights":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
-    	"keywords":["App Designer", "App Framework", "Apache Cordova API", "Purchases", "Monetize"],
-	"visible": "true",
-	"apppreview":"false",
-	"appname":"demo.inapppurchase",
-	"relname":"4.0.0",
-  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
+   "screenshotUrl" : "",
+   "visible" : true,
+   "keywords" : [
+      "App Designer",
+      "App Framework",
+      "Apache Cordova API",
+      "Purchases",
+      "Monetize"
+   ],
+   "relName" : "4.0.0",
+   "description" : "[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
+   "title" : "Hello In App Purchase",
+   "iconUrl" : "",
+   "abbr" : "In App Purchase",
+   "appName" : "demo.inapppurchase",
+   "tooltip" : "[Cordova for iOS] A simple app that has Apple StoreKit* based in-app purchases intergrated using the cc.fovea.plugins.inapppurchase Apache Cordova* plug-in.",
+   "mobile" : false,
+   "projectTypeName" : "com.intel.xdk.projecttype.jsapp",
+   "highlights" : [
+      "App Designer",
+      "App Framework",
+      "Apache Cordova API",
+      "Purchases",
+      "Monetize"
+   ],
+   "articleUrl" : "https://software.intel.com/en-us/xdk/docs/html5-hybrid-apps-with-cordova-and-in-app-purchase",
+   "repoName" : "sample-in-app-purchase",
+   "appPreview" : false
 }
