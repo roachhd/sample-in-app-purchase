@@ -1,0 +1,3 @@
+<!-- +Android --><intelxdk:plugin intelxdk:name="In App Purchase Plugin" intelxdk:value="https://github.com/j3k0/cordova-plugin-purchase.git"> 
+    <intelxdk:param intelxdk:name="BILLING_KEY" intelxdk:value="<BILLING_KEY>" />
+</intelxdk:plugin>
