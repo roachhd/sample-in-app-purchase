@@ -24,19 +24,6 @@
                 "paramvals": {},
                 "dependsOn": [],
                 "dependedBy": []
-            },
-            {
-                "id": "cc.fovea.plugins.purchase",
-                "version": "",
-                "selectedState": "Included",
-                "data": {},
-                "paramvals": {},
-                "dependsOn": [],
-                "dependedBy": [],
-                "custom": "true",
-                "name": "In-App Purchase",
-                "origin": "https://github.com/j3k0/cordova-plugin-purchase",
-                "originType": "repo"
             }
         ],
         "serviceMethods": [],
