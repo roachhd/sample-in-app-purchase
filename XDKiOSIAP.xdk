@@ -15,17 +15,31 @@
         "projectFiles": {},
         "projectDirectories": {},
         "libraries": [],
-        "cordovaPlugins": [
-            {
-                "id": "org.apache.cordova.device",
-                "version": "?",
-                "selectedState": "Included",
-                "data": {},
-                "paramvals": {},
-                "dependsOn": [],
-                "dependedBy": []
-            }
-        ],
+    "cordovaPlugins": [
+      {
+        "id": "org.apache.cordova.device",
+        "version": "0.2.13",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
+      },
+      {
+        "id": "cc.fovea.cordova.purchase",
+        "version": "",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "custom": "true",
+        "name": "InAppPurchase",
+        "origin": "https://github.com/j3k0/cordova-plugin-purchase.git#v3.9.0-beta.4",
+        "originType": "repo",
+        "sourceLocation": ""
+      }
+    ],
         "serviceMethods": [],
         "buildConfigurations": {
             "Android": {
