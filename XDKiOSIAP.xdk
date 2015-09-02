@@ -1,19 +1,26 @@
 {
     "project": {
-        "projectSettingsVersion": "1.2",
+        "projectSettingsVersion": "2.0.0",
         "creationData": {
-            "type": "Demo",
             "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-            "src": "https://edge-intel.s3.amazonaws.com/jsapp/production/release-2014-ww51/sample-in-app-purchase/sample.zip",
+            "src": "jsapp/sample-in-app-purchase/sample.zip",
             "projectGuid": "00000000-0000-0000-0000-000000000000",
-            "lastModifiedDate": 1429659533976,
-            "creationDate": 1423528227184
+            "lastModifiedDate": 1440127521545,
+            "creationDate": 1440127512945
         },
         "sourceDirectory": "www",
         "cordovaPluginsDirectory": "plugins",
         "startFile": "index.html",
         "projectFiles": {},
-        "projectDirectories": {},
+        "projectDirectories": {
+            "www/xdk": {
+                "settings": {
+                    "project": {
+                        "XDK-generated": "true"
+                    }
+                }
+            }
+        },
         "libraries": [],
         "cordovaPlugins": [
             {
@@ -68,15 +75,15 @@
             },
             {
                 "id": "cc.fovea.cordova.purchase",
-                "version": "",
+                "version": "3.9.0-beta.4",
                 "selectedState": "Included",
                 "data": {},
                 "paramvals": {},
                 "dependsOn": [],
                 "dependedBy": [],
                 "custom": "true",
-                "name": "InAppPurchase",
-                "origin": "https://github.com/j3k0/cordova-plugin-purchase.git#v3.9.0-beta.4",
+                "name": "Purchase",
+                "origin": "https://github.com/j3k0/cordova-plugin-purchase.git",
                 "originType": "repo",
                 "sourceLocation": "",
                 "permissions": {},
@@ -99,18 +106,20 @@
                     "android-installLocation": "auto"
                 },
                 "isActive_": true,
-                "appName_": "HelloInAppPurchase",
+                "appName_": "Hello-InAppPurchase",
                 "appID_": "com.mcc.appleiap",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
-                "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
                 "appVersion_": "0.0.1",
                 "appVersionCode_": "1",
@@ -127,18 +136,20 @@
                     "android-installLocation": "auto"
                 },
                 "isActive_": true,
-                "appName_": "HelloInAppPurchase",
+                "appName_": "Hello-InAppPurchase",
                 "appID_": "com.mcc.appleiap",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
-                "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
                 "appVersion_": "0.0.1",
                 "appVersionCode_": "1",
@@ -154,26 +165,25 @@
                     "ios-configuration": "adhoc"
                 },
                 "isActive_": true,
-                "appName_": "HelloInAppPurchase",
+                "appName_": "Hello-InAppPurchase",
                 "appID_": "com.mcc.appleiap",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
-                "iosProvs_": [
-                    {
-                        "relPath": "XDKInAppPurchaseProfile.mobileprovision",
-                        "type": "adhoc"
-                    }
-                ],
+                "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
                 "appAuthor_": "Intel XDK",
-                "appVersion_": "0.0.1"
+                "appVersion_": "0.0.1",
+                "crosswalkVersion_": "?"
             },
             "Windows8": {
                 "platform_": "windows8",
@@ -181,21 +191,24 @@
                 "name_": "Windows8",
                 "preferences_": {},
                 "isActive_": true,
-                "appName_": "HelloInAppPurchase",
+                "appName_": "Hello-InAppPurchase",
                 "appID_": "com.mcc.appleiap",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
                 "appAuthor_": "Intel XDK",
-                "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
-                "appVersion_": "0.0.0.1"
+                "appVersion_": "0.0.0.1",
+                "crosswalkVersion_": "?"
             },
             "WebApp": {
                 "platform_": "webapp",
@@ -203,13 +216,16 @@
                 "name_": "WebApp",
                 "preferences_": {},
                 "isActive_": false,
-                "appName_": "XDKiOSIAP",
+                "appName_": "Hello-InAppPurchase",
                 "appID_": "not.yet.specified",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
@@ -223,13 +239,16 @@
                 "name_": "Firefox",
                 "preferences_": {},
                 "isActive_": false,
-                "appName_": "XDKiOSIAP",
+                "appName_": "Hello-InAppPurchase",
                 "appID_": "not.yet.specified",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
@@ -243,13 +262,16 @@
                 "name_": "Chrome",
                 "preferences_": {},
                 "isActive_": false,
-                "appName_": "XDKiOSIAP",
+                "appName_": "Hello-InAppPurchase",
                 "appID_": "not.yet.specified",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
@@ -263,23 +285,51 @@
                 "name_": "Facebook",
                 "preferences_": {},
                 "isActive_": false,
-                "appName_": "XDKiOSIAP",
+                "appName_": "Hello-InAppPurchase",
                 "appID_": "not.yet.specified",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
                 "appAuthor_": "Intel XDK",
                 "appVersion_": "0.0.1"
+            },
+            "WP81": {
+                "platform_": "wp81",
+                "runtime_": "W3C on Facebook",
+                "name_": "WP81",
+                "preferences_": {},
+                "isActive_": true,
+                "appName_": "Hello-InAppPurchase",
+                "appID_": "not.yet.specified",
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "appAuthor_": "Intel XDK",
+                "appVersion_": "0.0.0.1",
+                "cordovaCLIVersion_": "?"
             }
         },
         "gameAssetDirectory": "asset",
         "gameMetadata": {},
-        "projectTags": []
+        "projectTags": [],
+        "testDirectory": "test"
     }
 }
