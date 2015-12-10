@@ -24,7 +24,7 @@
       "Purchases",
       "Monetize"
    ],
-   "articleUrl" : "https://software.intel.com/en-us/xdk/docs/html5-hybrid-apps-with-cordova-and-in-app-purchase",
+   "articleUrl" : "https://github.com/gomobile/sample-in-app-purchase/blob/master/docs/README.md",
    "repoName" : "sample-in-app-purchase",
    "appPreview" : false
 }
